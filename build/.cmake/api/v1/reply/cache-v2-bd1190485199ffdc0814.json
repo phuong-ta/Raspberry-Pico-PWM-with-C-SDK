@@ -987,7 +987,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "blink"
+			"value" : "PWM"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1495,7 +1495,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1688,6 +1688,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : ""
+		},
+		{
+			"name" : "PWM_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/VSARM/sdk/pico/Raspberry-Pico-PWM-with-C-SDK/build"
+		},
+		{
+			"name" : "PWM_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "PWM_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/VSARM/sdk/pico/Raspberry-Pico-PWM-with-C-SDK"
 		},
 		{
 			"name" : "_Python3_Compiler_REASON_FAILURE",

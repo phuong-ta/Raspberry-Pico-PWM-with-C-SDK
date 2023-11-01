@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "blink.elf"
+			"path" : "PWM.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -279,7 +279,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"blink\""
+					"define" : "PICO_TARGET_NAME=\"PWM\""
 				},
 				{
 					"backtrace" : 2,
@@ -738,7 +738,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"blink\""
+					"define" : "PICO_TARGET_NAME=\"PWM\""
 				},
 				{
 					"backtrace" : 2,
@@ -1159,7 +1159,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"blink\""
+					"define" : "PICO_TARGET_NAME=\"PWM\""
 				},
 				{
 					"backtrace" : 2,
@@ -1375,7 +1375,7 @@
 			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
 		}
 	],
-	"id" : "blink::@6890427a1f51a3e7e1df",
+	"id" : "PWM::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -2160,7 +2160,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-Map=blink.elf.map",
+				"fragment" : "-Wl,-Map=PWM.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -2216,8 +2216,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "blink",
-	"nameOnDisk" : "blink.elf",
+	"name" : "PWM",
+	"nameOnDisk" : "PWM.elf",
 	"paths" : 
 	{
 		"build" : ".",

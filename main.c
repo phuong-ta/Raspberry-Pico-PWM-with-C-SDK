@@ -3,12 +3,13 @@
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"
 
-#define PWM_MAX_VALUE 255
+#define PWM_MAX_VALUE 125
+#define PWM_MIN_VALUE 0
 typedef struct IO_PIN {
 int pin_number;
 bool input;
 //bool invert;
-} PinData; // input (pinNumber, 1,0) // output (pinNumber, 0,0)
+} PinData; // input (pinNumber, 1,0) // output (pinNumber, S0,0)
 
 void InitialPin(const PinData  *pin){
     gpio_init(pin->pin_number);
@@ -91,9 +92,9 @@ int main() {
             if (isClicked(&sw2))
             {
                 pwm_level-=1;
-                if (pwm_level<=0)
+                if (pwm_level<=PWM_MIN_VALUE)
                 {
-                    pwm_level=0;
+                    pwm_level=PWM_MIN_VALUE;
                 }
                 printf("PWM Level: %u\r\n", pwm_level);
             }
@@ -101,9 +102,9 @@ int main() {
             if (isClicked(&sw0))
             {
                 pwm_level+=1;
-                if (pwm_level>=125)
+                if (pwm_level>=PWM_MAX_VALUE)
                 {
-                    pwm_level=125;
+                    pwm_level=PWM_MAX_VALUE;
                 }
                 printf("PWM Level: %u\r\n", pwm_level);
             }
@@ -115,6 +116,6 @@ int main() {
             pwm_set_chan_level(slice_num, PWM_CHAN_A, 0); 
         }
 
-        sleep_ms(100);
+        sleep_ms(50);
     }
 }

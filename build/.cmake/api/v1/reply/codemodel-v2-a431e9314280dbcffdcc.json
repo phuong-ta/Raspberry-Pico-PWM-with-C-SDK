@@ -1025,7 +1025,7 @@
 					[
 						0
 					],
-					"name" : "blink",
+					"name" : "PWM",
 					"targetIndexes" : 
 					[
 						0
@@ -1130,9 +1130,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "blink::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blink-Debug-c171d97d45887ca1ce9f.json",
-					"name" : "blink",
+					"id" : "PWM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PWM-Debug-34f1e1f8fd8779c43091.json",
+					"name" : "PWM",
 					"projectIndex" : 0
 				},
 				{
