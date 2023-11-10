@@ -61,4 +61,7 @@ CMakeFiles/PWM.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pwm\include/hardware/pwm.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pwm.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pwm.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pwm.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\include/pico/util/queue.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\include/pico/lock_core.h
